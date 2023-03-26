@@ -34,10 +34,12 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
+    {"id":{"name":"PlayerBullet","path":"objects/PlayerBullet/PlayerBullet.yy",},},
     {"id":{"name":"PlayerSpr","path":"sprites/PlayerSpr/PlayerSpr.yy",},},
     {"id":{"name":"PlayerTurretSpr","path":"sprites/PlayerTurretSpr/PlayerTurretSpr.yy",},},
     {"id":{"name":"PlayerTurret","path":"objects/PlayerTurret/PlayerTurret.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
+    {"id":{"name":"PlayerBulletSpr","path":"sprites/PlayerBulletSpr/PlayerBulletSpr.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

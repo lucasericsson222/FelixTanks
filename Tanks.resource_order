@@ -17,8 +17,10 @@
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"PlayerBullet","order":4,"path":"objects/PlayerBullet/PlayerBullet.yy",},
     {"name":"PlayerSpr","order":1,"path":"sprites/PlayerSpr/PlayerSpr.yy",},
     {"name":"PlayerTurretSpr","order":3,"path":"sprites/PlayerTurretSpr/PlayerTurretSpr.yy",},
     {"name":"PlayerTurret","order":2,"path":"objects/PlayerTurret/PlayerTurret.yy",},
+    {"name":"PlayerBulletSpr","order":5,"path":"sprites/PlayerBulletSpr/PlayerBulletSpr.yy",},
   ],
 }
