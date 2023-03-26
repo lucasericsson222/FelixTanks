@@ -18,5 +18,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"PlayerSpr","order":1,"path":"sprites/PlayerSpr/PlayerSpr.yy",},
+    {"name":"PlayerTurretSpr","order":3,"path":"sprites/PlayerTurretSpr/PlayerTurretSpr.yy",},
+    {"name":"PlayerTurret","order":2,"path":"objects/PlayerTurret/PlayerTurret.yy",},
   ],
 }

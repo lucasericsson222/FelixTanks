@@ -35,6 +35,8 @@
   },
   "resources": [
     {"id":{"name":"PlayerSpr","path":"sprites/PlayerSpr/PlayerSpr.yy",},},
+    {"id":{"name":"PlayerTurretSpr","path":"sprites/PlayerTurretSpr/PlayerTurretSpr.yy",},},
+    {"id":{"name":"PlayerTurret","path":"objects/PlayerTurret/PlayerTurret.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],

@@ -11,3 +11,12 @@ PlayerSpeed = 2.5;
 /// @DnDArgument : "expr" "5"
 /// @DnDArgument : "var" "RotSpeed"
 RotSpeed = 5;
+
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 51C5CF24
+/// @DnDArgument : "xpos_relative" "1"
+/// @DnDArgument : "ypos_relative" "1"
+/// @DnDArgument : "var" "Turret"
+/// @DnDArgument : "objectid" " PlayerTurret"
+Turret = instance_create_layer(x + 0, y + 0, "Instances",  PlayerTurret);
