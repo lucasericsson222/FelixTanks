@@ -5,9 +5,9 @@
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "rot_relative" "1"
 /// @DnDArgument : "sprite" "PlayerTurretSpr"
-/// @DnDArgument : "col" "$FFFFFFFF"
+/// @DnDArgument : "col" "$FF0059FF"
 /// @DnDSaveInfo : "sprite" "PlayerTurretSpr"
-draw_sprite_ext(PlayerTurretSpr, 0, x + 0, y + 0, 1, 1, image_angle + 0, $FFFFFFFF & $ffffff, 1);
+draw_sprite_ext(PlayerTurretSpr, 0, x + 0, y + 0, 1, 1, image_angle + 0, $FF0059FF & $ffffff, 1);
 
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1

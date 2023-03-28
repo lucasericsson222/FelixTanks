@@ -5,9 +5,9 @@
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "rot" "BodyRotation"
 /// @DnDArgument : "sprite" "PlayerSpr"
-/// @DnDArgument : "col" "$FFFFFFFF"
+/// @DnDArgument : "col" "$FF0059FF"
 /// @DnDSaveInfo : "sprite" "PlayerSpr"
-draw_sprite_ext(PlayerSpr, 0, x + 0, y + 0, 1, 1, BodyRotation, $FFFFFFFF & $ffffff, 1);
+draw_sprite_ext(PlayerSpr, 0, x + 0, y + 0, 1, 1, BodyRotation, $FF0059FF & $ffffff, 1);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
