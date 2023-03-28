@@ -12,6 +12,12 @@ PlayerSpeed = 2.5;
 /// @DnDArgument : "var" "RotSpeed"
 RotSpeed = 5;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5160FFE8
+/// @DnDArgument : "var" "BodyRotation"
+BodyRotation = 0;
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 51C5CF24
@@ -27,3 +33,10 @@ Turret = instance_create_layer(x + 0, y + 0, "Instances",  PlayerTurret);
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "isMoving"
 isMoving = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 170E384A
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "isRainbow"
+isRainbow = false;

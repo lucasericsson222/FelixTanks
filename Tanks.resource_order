@@ -19,10 +19,15 @@
   "ResourceOrderSettings": [
     {"name":"PlayerBullet","order":4,"path":"objects/PlayerBullet/PlayerBullet.yy",},
     {"name":"WallSpr","order":7,"path":"sprites/WallSpr/WallSpr.yy",},
+    {"name":"RainbowKiwi","order":11,"path":"objects/RainbowKiwi/RainbowKiwi.yy",},
     {"name":"PlayerSpr","order":1,"path":"sprites/PlayerSpr/PlayerSpr.yy",},
     {"name":"PlayerTurretSpr","order":3,"path":"sprites/PlayerTurretSpr/PlayerTurretSpr.yy",},
+    {"name":"FragileWall","order":8,"path":"objects/FragileWall/FragileWall.yy",},
     {"name":"PlayerTurret","order":2,"path":"objects/PlayerTurret/PlayerTurret.yy",},
+    {"name":"FragileWallSpr","order":9,"path":"sprites/FragileWallSpr/FragileWallSpr.yy",},
+    {"name":"PlayerCollisionBoxSpr","order":10,"path":"sprites/PlayerCollisionBoxSpr/PlayerCollisionBoxSpr.yy",},
     {"name":"Wall","order":6,"path":"objects/Wall/Wall.yy",},
     {"name":"PlayerBulletSpr","order":5,"path":"sprites/PlayerBulletSpr/PlayerBulletSpr.yy",},
+    {"name":"RaibowKiwiSpr","order":12,"path":"sprites/RaibowKiwiSpr/RaibowKiwiSpr.yy",},
   ],
 }

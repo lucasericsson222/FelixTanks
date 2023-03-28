@@ -5,9 +5,10 @@
 /// @DnDArgument : "direction_relative" "1"
 direction += RotSpeed;
 
-/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 15CE134D
-/// @DnDArgument : "angle" "RotSpeed"
-/// @DnDArgument : "angle_relative" "1"
-image_angle += RotSpeed;
+/// @DnDHash : 5BEE6402
+/// @DnDArgument : "expr" "RotSpeed"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "BodyRotation"
+BodyRotation += RotSpeed;

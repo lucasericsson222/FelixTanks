@@ -36,12 +36,17 @@
   "resources": [
     {"id":{"name":"PlayerBullet","path":"objects/PlayerBullet/PlayerBullet.yy",},},
     {"id":{"name":"WallSpr","path":"sprites/WallSpr/WallSpr.yy",},},
+    {"id":{"name":"RainbowKiwi","path":"objects/RainbowKiwi/RainbowKiwi.yy",},},
     {"id":{"name":"PlayerSpr","path":"sprites/PlayerSpr/PlayerSpr.yy",},},
     {"id":{"name":"PlayerTurretSpr","path":"sprites/PlayerTurretSpr/PlayerTurretSpr.yy",},},
+    {"id":{"name":"FragileWall","path":"objects/FragileWall/FragileWall.yy",},},
     {"id":{"name":"PlayerTurret","path":"objects/PlayerTurret/PlayerTurret.yy",},},
+    {"id":{"name":"FragileWallSpr","path":"sprites/FragileWallSpr/FragileWallSpr.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
+    {"id":{"name":"PlayerCollisionBoxSpr","path":"sprites/PlayerCollisionBoxSpr/PlayerCollisionBoxSpr.yy",},},
     {"id":{"name":"Wall","path":"objects/Wall/Wall.yy",},},
     {"id":{"name":"PlayerBulletSpr","path":"sprites/PlayerBulletSpr/PlayerBulletSpr.yy",},},
+    {"id":{"name":"RaibowKiwiSpr","path":"sprites/RaibowKiwiSpr/RaibowKiwiSpr.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

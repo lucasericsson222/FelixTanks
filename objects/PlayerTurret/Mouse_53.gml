@@ -15,3 +15,10 @@ var Bullet = instance_create_layer(x + 0, y + 0, "Instances", PlayerBullet);
 /// @DnDArgument : "expr" "direction"
 /// @DnDArgument : "var" "Bullet.direction"
 Bullet.direction = direction;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0BE978B2
+/// @DnDArgument : "expr" "isRainbow"
+/// @DnDArgument : "var" "Bullet.isRainbow"
+Bullet.isRainbow = isRainbow;
