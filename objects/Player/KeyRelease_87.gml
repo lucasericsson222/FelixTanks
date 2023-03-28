@@ -1,4 +1,6 @@
-/// @DnDAction : YoYo Games.Movement.Set_Speed
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 0FDBA672
-speed = 0;
+/// @DnDHash : 39D7DF68
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "isMoving"
+isMoving = false;

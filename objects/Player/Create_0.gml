@@ -20,3 +20,10 @@ RotSpeed = 5;
 /// @DnDArgument : "var" "Turret"
 /// @DnDArgument : "objectid" " PlayerTurret"
 Turret = instance_create_layer(x + 0, y + 0, "Instances",  PlayerTurret);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6E31EBC3
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "isMoving"
+isMoving = false;
