@@ -39,6 +39,7 @@
     {"name":"PlayerBulletSpr","order":5,"path":"sprites/PlayerBulletSpr/PlayerBulletSpr.yy",},
     {"name":"RaibowKiwiSpr","order":12,"path":"sprites/RaibowKiwiSpr/RaibowKiwiSpr.yy",},
     {"name":"EnemyBasic","order":15,"path":"objects/EnemyBasic/EnemyBasic.yy",},
+    {"name":"Room12","order":1,"path":"rooms/Room12/Room12.yy",},
     {"name":"Bomb","order":20,"path":"objects/Bomb/Bomb.yy",},
   ],
 }

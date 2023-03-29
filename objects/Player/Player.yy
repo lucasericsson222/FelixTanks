@@ -41,10 +41,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": true,
-  "spriteId": {
+  "spriteId": null,
+  "spriteMaskId": {
     "name": "PlayerCollisionBoxSpr",
     "path": "sprites/PlayerCollisionBoxSpr/PlayerCollisionBoxSpr.yy",
   },
-  "spriteMaskId": null,
   "visible": true,
 }

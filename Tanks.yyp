@@ -57,10 +57,12 @@
     {"id":{"name":"PlayerBulletSpr","path":"sprites/PlayerBulletSpr/PlayerBulletSpr.yy",},},
     {"id":{"name":"RaibowKiwiSpr","path":"sprites/RaibowKiwiSpr/RaibowKiwiSpr.yy",},},
     {"id":{"name":"EnemyBasic","path":"objects/EnemyBasic/EnemyBasic.yy",},},
+    {"id":{"name":"Room12","path":"rooms/Room12/Room12.yy",},},
     {"id":{"name":"Bomb","path":"objects/Bomb/Bomb.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room12","path":"rooms/Room12/Room12.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "TextureGroups": [
