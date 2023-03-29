@@ -50,3 +50,19 @@ if (!(l2056121D_0 > 0))
 /// @DnDArgument : "expr" "EnemyHealth*2"
 /// @DnDArgument : "var" "PercentHealth"
 PercentHealth = EnemyHealth*2;
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4F537AB2
+/// @DnDArgument : "var" "EnemyHealth"
+/// @DnDArgument : "op" "3"
+if(EnemyHealth <= 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_At_Position
+	/// @DnDVersion : 1
+	/// @DnDHash : 4EB00E25
+	/// @DnDParent : 4F537AB2
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	position_destroy(x + 0, y + 0);
+}

@@ -1,5 +1,25 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 5A80FB22
+/// @DnDArgument : "var" "NumberOfBombs"
+NumberOfBombs = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5D95D7BC
+/// @DnDArgument : "expr" "100"
+/// @DnDArgument : "var" "PlayerHP"
+PlayerHP = 100;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 640BF98F
+/// @DnDArgument : "expr" "100"
+/// @DnDArgument : "var" "PercentHP"
+PercentHP = 100;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 598F3413
 /// @DnDArgument : "expr" "2.5"
 /// @DnDArgument : "var" "PlayerSpeed"
