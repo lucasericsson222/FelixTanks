@@ -37,6 +37,7 @@
     {"id":{"name":"PlayerBullet","path":"objects/PlayerBullet/PlayerBullet.yy",},},
     {"id":{"name":"WallSpr","path":"sprites/WallSpr/WallSpr.yy",},},
     {"id":{"name":"RainbowKiwi","path":"objects/RainbowKiwi/RainbowKiwi.yy",},},
+    {"id":{"name":"EnemyBullet","path":"objects/EnemyBullet/EnemyBullet.yy",},},
     {"id":{"name":"Crate","path":"objects/Crate/Crate.yy",},},
     {"id":{"name":"PlayerSpr","path":"sprites/PlayerSpr/PlayerSpr.yy",},},
     {"id":{"name":"PlayerTurretSpr","path":"sprites/PlayerTurretSpr/PlayerTurretSpr.yy",},},
