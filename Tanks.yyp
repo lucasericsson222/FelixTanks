@@ -35,7 +35,10 @@
   },
   "resources": [
     {"id":{"name":"PlayerBullet","path":"objects/PlayerBullet/PlayerBullet.yy",},},
+    {"id":{"name":"JACKS","path":"rooms/JACKS/JACKS.yy",},},
     {"id":{"name":"WallSpr","path":"sprites/WallSpr/WallSpr.yy",},},
+    {"id":{"name":"MedkitSpr","path":"sprites/MedkitSpr/MedkitSpr.yy",},},
+    {"id":{"name":"Room13","path":"rooms/Room13/Room13.yy",},},
     {"id":{"name":"RainbowKiwi","path":"objects/RainbowKiwi/RainbowKiwi.yy",},},
     {"id":{"name":"Explosion","path":"objects/Explosion/Explosion.yy",},},
     {"id":{"name":"EnemyBullet","path":"objects/EnemyBullet/EnemyBullet.yy",},},
@@ -47,6 +50,7 @@
     {"id":{"name":"FragileWall","path":"objects/FragileWall/FragileWall.yy",},},
     {"id":{"name":"EnemyBasicTurret","path":"objects/EnemyBasicTurret/EnemyBasicTurret.yy",},},
     {"id":{"name":"PlayerTurret","path":"objects/PlayerTurret/PlayerTurret.yy",},},
+    {"id":{"name":"Medkit","path":"objects/Medkit/Medkit.yy",},},
     {"id":{"name":"FragileWallSpr","path":"sprites/FragileWallSpr/FragileWallSpr.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"PlayerCollisionBoxSpr","path":"sprites/PlayerCollisionBoxSpr/PlayerCollisionBoxSpr.yy",},},
@@ -59,11 +63,11 @@
     {"id":{"name":"EnemyBasic","path":"objects/EnemyBasic/EnemyBasic.yy",},},
     {"id":{"name":"Room12","path":"rooms/Room12/Room12.yy",},},
     {"id":{"name":"Bomb","path":"objects/Bomb/Bomb.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"JACKS","path":"rooms/JACKS/JACKS.yy",},},
+    {"roomId":{"name":"Room13","path":"rooms/Room13/Room13.yy",},},
     {"roomId":{"name":"Room12","path":"rooms/Room12/Room12.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
