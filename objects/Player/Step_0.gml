@@ -117,3 +117,10 @@ if(PlayerHP <= 0)
 	/// @DnDArgument : "ypos_relative" "1"
 	position_destroy(x + 0, y + 0);
 }
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4CC6D11B
+/// @DnDArgument : "expr" "DoubleShot"
+/// @DnDArgument : "var" "PlayerTurret.DoubleShot"
+PlayerTurret.DoubleShot = DoubleShot;

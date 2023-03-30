@@ -60,3 +60,10 @@ isMoving = false;
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "isRainbow"
 isRainbow = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0C817E99
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "DoubleShot"
+DoubleShot = false;

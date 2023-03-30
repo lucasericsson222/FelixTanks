@@ -10,8 +10,8 @@ if(!(Lit == true))
 	/// @DnDVersion : 1
 	/// @DnDHash : 323756B7
 	/// @DnDParent : 3BF9D53E
-	/// @DnDArgument : "steps" "60*3"
-	alarm_set(0, 60*3);
+	/// @DnDArgument : "steps" "60*1"
+	alarm_set(0, 60*1);
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 	/// @DnDVersion : 1

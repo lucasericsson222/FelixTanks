@@ -1,11 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "FragileWall",
+  "name": "ReinforcedFragileWall",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"PlayerBullet","path":"objects/PlayerBullet/PlayerBullet.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"EnemyBullet","path":"objects/EnemyBullet/EnemyBullet.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Explosion","path":"objects/Explosion/Explosion.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
   ],
@@ -35,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "FragileWallSpr14",
-    "path": "sprites/FragileWallSpr14/FragileWallSpr14.yy",
+    "name": "ReinforcedFragileWallSpr",
+    "path": "sprites/ReinforcedFragileWallSpr/ReinforcedFragileWallSpr.yy",
   },
   "spriteMaskId": null,
   "visible": true,
