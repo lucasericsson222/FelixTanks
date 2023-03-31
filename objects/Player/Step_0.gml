@@ -47,10 +47,10 @@ if(isMoving)
 		/// @DnDArgument : "x" "newPosX"
 		/// @DnDArgument : "x_relative" "1"
 		/// @DnDArgument : "y_relative" "1"
-		/// @DnDArgument : "object" "EnemyBasic"
+		/// @DnDArgument : "object" "EnemyParent"
 		/// @DnDArgument : "not" "1"
-		/// @DnDSaveInfo : "object" "EnemyBasic"
-		var l1B924115_0 = instance_place(x + newPosX, y + 0, EnemyBasic);
+		/// @DnDSaveInfo : "object" "EnemyParent"
+		var l1B924115_0 = instance_place(x + newPosX, y + 0, EnemyParent);
 		if (!(l1B924115_0 > 0))
 		{
 			/// @DnDAction : YoYo Games.Movement.move_and_collide
@@ -84,10 +84,10 @@ if(isMoving)
 		/// @DnDArgument : "x_relative" "1"
 		/// @DnDArgument : "y" "newPosY"
 		/// @DnDArgument : "y_relative" "1"
-		/// @DnDArgument : "object" "EnemyBasic"
+		/// @DnDArgument : "object" "EnemyParent"
 		/// @DnDArgument : "not" "1"
-		/// @DnDSaveInfo : "object" "EnemyBasic"
-		var l19083A27_0 = instance_place(x + 0, y + newPosY, EnemyBasic);
+		/// @DnDSaveInfo : "object" "EnemyParent"
+		var l19083A27_0 = instance_place(x + 0, y + newPosY, EnemyParent);
 		if (!(l19083A27_0 > 0))
 		{
 			/// @DnDAction : YoYo Games.Movement.move_and_collide
@@ -102,6 +102,13 @@ if(isMoving)
 	}
 }
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4CC6D11B
+/// @DnDArgument : "expr" "DoubleShot"
+/// @DnDArgument : "var" "PlayerTurret.DoubleShot"
+PlayerTurret.DoubleShot = DoubleShot;
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1875E8A3
@@ -109,6 +116,14 @@ if(isMoving)
 /// @DnDArgument : "op" "3"
 if(PlayerHP <= 0)
 {
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 764B7B75
+	/// @DnDParent : 1875E8A3
+	/// @DnDArgument : "room" "DeathRoom"
+	/// @DnDSaveInfo : "room" "DeathRoom"
+	room_goto(DeathRoom);
+
 	/// @DnDAction : YoYo Games.Instances.Destroy_At_Position
 	/// @DnDVersion : 1
 	/// @DnDHash : 7DC9045C
@@ -117,10 +132,3 @@ if(PlayerHP <= 0)
 	/// @DnDArgument : "ypos_relative" "1"
 	position_destroy(x + 0, y + 0);
 }
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 4CC6D11B
-/// @DnDArgument : "expr" "DoubleShot"
-/// @DnDArgument : "var" "PlayerTurret.DoubleShot"
-PlayerTurret.DoubleShot = DoubleShot;
