@@ -11,3 +11,10 @@ isRainbow = false;
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "DoubleShot"
 DoubleShot = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 40026B6B
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "CanShoot"
+CanShoot = true;

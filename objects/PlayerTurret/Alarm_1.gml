@@ -5,9 +5,9 @@
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "var" "Bullet"
 /// @DnDArgument : "var_temp" "1"
-/// @DnDArgument : "objectid" "PlayerBullet"
-/// @DnDSaveInfo : "objectid" "PlayerBullet"
-var Bullet = instance_create_layer(x + 0, y + 0, "Instances", PlayerBullet);
+/// @DnDArgument : "objectid" "EnemyBullet"
+/// @DnDSaveInfo : "objectid" "EnemyBullet"
+var Bullet = instance_create_layer(x + 0, y + 0, "Instances", EnemyBullet);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

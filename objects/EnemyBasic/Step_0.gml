@@ -12,10 +12,10 @@ direction = point_direction(x, y, Player.x, Player.y);
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "lengthdir_y(EnemySpeed, direction)"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "EnemyBasic"
+/// @DnDArgument : "object" "EnemyParent"
 /// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "object" "EnemyBasic"
-var l2056121D_0 = instance_place(x + lengthdir_x(EnemySpeed, direction), y + lengthdir_y(EnemySpeed, direction), EnemyBasic);
+/// @DnDSaveInfo : "object" "EnemyParent"
+var l2056121D_0 = instance_place(x + lengthdir_x(EnemySpeed, direction), y + lengthdir_y(EnemySpeed, direction), EnemyParent);
 if (!(l2056121D_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
@@ -58,11 +58,17 @@ PercentHealth = EnemyHealth*2;
 /// @DnDArgument : "op" "3"
 if(EnemyHealth <= 0)
 {
-	/// @DnDAction : YoYo Games.Instances.Destroy_At_Position
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 4EB00E25
+	/// @DnDHash : 14BF1127
 	/// @DnDParent : 4F537AB2
-	/// @DnDArgument : "xpos_relative" "1"
-	/// @DnDArgument : "ypos_relative" "1"
-	position_destroy(x + 0, y + 0);
+	instance_destroy();
+
+	/// @DnDAction : YoYo Games.Common.Function_Call
+	/// @DnDVersion : 1
+	/// @DnDHash : 4C4EB469
+	/// @DnDParent : 4F537AB2
+	/// @DnDArgument : "function" "instance_destroy"
+	/// @DnDArgument : "arg" "EnemyTurret"
+	instance_destroy(EnemyTurret);
 }

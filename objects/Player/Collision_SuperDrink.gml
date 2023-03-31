@@ -8,6 +8,6 @@ DoubleShot = true;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 5F3B4BCB
-/// @DnDArgument : "steps" "60*7"
+/// @DnDArgument : "steps" "60*1"
 /// @DnDArgument : "alarm" "1"
-alarm_set(1, 60*7);
+alarm_set(1, 60*1);

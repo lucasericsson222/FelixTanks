@@ -17,7 +17,7 @@ if(Damage > 2)
 /// @DnDVersion : 1
 /// @DnDHash : 3C3C691B
 /// @DnDArgument : "imageind" "Damage"
-/// @DnDArgument : "spriteind" "ReinforcedFragileWallSpr"
-/// @DnDSaveInfo : "spriteind" "ReinforcedFragileWallSpr"
-sprite_index = ReinforcedFragileWallSpr;
+/// @DnDArgument : "spriteind" "FragileWallSpr"
+/// @DnDSaveInfo : "spriteind" "FragileWallSpr"
+sprite_index = FragileWallSpr;
 image_index = Damage;

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "FragileWallSpr14",
+  "name": "FragileWallSpr",
   "bbox_bottom": 15,
   "bbox_left": 0,
   "bbox_right": 15,
@@ -27,8 +27,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -56,9 +56,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2bf27c88-0edf-4dfa-8067-e34c8496c5a2","path":"sprites/FragileWallSpr14/FragileWallSpr14.yy",},},},"Disabled":false,"id":"20c0ba53-e798-4138-b368-75fbbea6c56d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6ce8ea64-af4e-4bd9-b901-914ab95d633f","path":"sprites/FragileWallSpr14/FragileWallSpr14.yy",},},},"Disabled":false,"id":"43641c13-8cf7-4961-904c-8db10fd72ec7","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"309d4e62-4d21-49fe-bdf0-2ef0791f4617","path":"sprites/FragileWallSpr14/FragileWallSpr14.yy",},},},"Disabled":false,"id":"18b21fc0-92ae-4bfa-a9a0-6f07337716a6","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2bf27c88-0edf-4dfa-8067-e34c8496c5a2","path":"sprites/FragileWallSpr/FragileWallSpr.yy",},},},"Disabled":false,"id":"20c0ba53-e798-4138-b368-75fbbea6c56d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6ce8ea64-af4e-4bd9-b901-914ab95d633f","path":"sprites/FragileWallSpr/FragileWallSpr.yy",},},},"Disabled":false,"id":"43641c13-8cf7-4961-904c-8db10fd72ec7","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"309d4e62-4d21-49fe-bdf0-2ef0791f4617","path":"sprites/FragileWallSpr/FragileWallSpr.yy",},},},"Disabled":false,"id":"18b21fc0-92ae-4bfa-a9a0-6f07337716a6","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
