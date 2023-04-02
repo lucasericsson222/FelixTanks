@@ -4,7 +4,7 @@
   "name": "GeneralTurretSpr",
   "bbox_bottom": 48,
   "bbox_left": 16,
-  "bbox_right": 60,
+  "bbox_right": 61,
   "bbox_top": 16,
   "bboxMode": 0,
   "collisionKind": 1,

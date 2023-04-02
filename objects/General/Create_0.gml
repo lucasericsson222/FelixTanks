@@ -54,3 +54,16 @@ path_start(Path1, 0.5, path_action_restart, false);
 /// @DnDArgument : "objectid" "GeneralTurret"
 /// @DnDSaveInfo : "objectid" "GeneralTurret"
 Turret = instance_create_layer(x + 0, y + 0, "Instances", GeneralTurret);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 19F72ED7
+/// @DnDArgument : "expr" "300"
+/// @DnDArgument : "var" "GeneralHp"
+GeneralHp = 300;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 37C247B5
+/// @DnDArgument : "var" "GeneralPercent"
+GeneralPercent = 0;
