@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1AFD4007
-/// @DnDArgument : "expr" "GeneralHp/3"
+/// @DnDArgument : "expr" "GeneralHp/10"
 /// @DnDArgument : "var" "GeneralPercent"
-GeneralPercent = GeneralHp/3;
+GeneralPercent = GeneralHp/10;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

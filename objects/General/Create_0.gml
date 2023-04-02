@@ -58,9 +58,9 @@ Turret = instance_create_layer(x + 0, y + 0, "Instances", GeneralTurret);
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 19F72ED7
-/// @DnDArgument : "expr" "300"
+/// @DnDArgument : "expr" "1000"
 /// @DnDArgument : "var" "GeneralHp"
-GeneralHp = 300;
+GeneralHp = 1000;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
