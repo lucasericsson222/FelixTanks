@@ -24,7 +24,7 @@
     {"name":"GigaBullet","order":42,"path":"objects/GigaBullet/GigaBullet.yy",},
     {"name":"WinRoom","order":8,"path":"rooms/WinRoom/WinRoom.yy",},
     {"name":"Flag","order":49,"path":"objects/Flag/Flag.yy",},
-    {"name":"LV106","order":7,"path":"rooms/LV106/LV106.yy",},
+    {"name":"LV10","order":7,"path":"rooms/LV10/LV10.yy",},
     {"name":"FlagSpr","order":27,"path":"sprites/FlagSpr/FlagSpr.yy",},
     {"name":"BigBullet","order":38,"path":"objects/BigBullet/BigBullet.yy",},
     {"name":"VictorySpr","order":24,"path":"sprites/VictorySpr/VictorySpr.yy",},

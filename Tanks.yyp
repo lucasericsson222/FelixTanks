@@ -42,7 +42,7 @@
     {"id":{"name":"GigaBullet","path":"objects/GigaBullet/GigaBullet.yy",},},
     {"id":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
     {"id":{"name":"Flag","path":"objects/Flag/Flag.yy",},},
-    {"id":{"name":"LV106","path":"rooms/LV106/LV106.yy",},},
+    {"id":{"name":"LV10","path":"rooms/LV10/LV10.yy",},},
     {"id":{"name":"FlagSpr","path":"sprites/FlagSpr/FlagSpr.yy",},},
     {"id":{"name":"BigBullet","path":"objects/BigBullet/BigBullet.yy",},},
     {"id":{"name":"SuperDrinkSpr","path":"sprites/SuperDrinkSpr/SuperDrinkSpr.yy",},},
@@ -104,7 +104,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"TitleRoom","path":"rooms/TitleRoom/TitleRoom.yy",},},
-    {"roomId":{"name":"LV106","path":"rooms/LV106/LV106.yy",},},
+    {"roomId":{"name":"LV10","path":"rooms/LV10/LV10.yy",},},
     {"roomId":{"name":"JacksRoom","path":"rooms/JacksRoom/JacksRoom.yy",},},
     {"roomId":{"name":"Dieu","path":"rooms/Dieu/Dieu.yy",},},
     {"roomId":{"name":"EmptyRoom","path":"rooms/EmptyRoom/EmptyRoom.yy",},},
