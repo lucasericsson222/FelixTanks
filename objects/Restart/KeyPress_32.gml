@@ -1,4 +1,11 @@
-/// @DnDAction : YoYo Games.Rooms.Previous_Room
+/// @DnDAction : YoYo Games.Common.Get_Global
 /// @DnDVersion : 1
-/// @DnDHash : 1313C625
-room_goto_previous();
+/// @DnDHash : 2D66AEB8
+/// @DnDArgument : "var" "global.GLBRespawnPoint"
+temp = global.GLBRespawnPoint;
+
+/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+/// @DnDVersion : 1
+/// @DnDHash : 038B65B6
+/// @DnDArgument : "room" "temp"
+room_goto(temp);

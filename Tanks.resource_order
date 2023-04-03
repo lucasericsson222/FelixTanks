@@ -65,6 +65,7 @@
     {"name":"PlayerCollisionBoxSpr","order":6,"path":"sprites/PlayerCollisionBoxSpr/PlayerCollisionBoxSpr.yy",},
     {"name":"ExplosionSpr","order":11,"path":"sprites/ExplosionSpr/ExplosionSpr.yy",},
     {"name":"EnemyBasicSpr","order":14,"path":"sprites/EnemyBasicSpr/EnemyBasicSpr.yy",},
+    {"name":"EmptyRoom","order":10,"path":"rooms/EmptyRoom/EmptyRoom.yy",},
     {"name":"EnemyShotgunTurret","order":34,"path":"objects/EnemyShotgunTurret/EnemyShotgunTurret.yy",},
     {"name":"GeneralTurret","order":41,"path":"objects/GeneralTurret/GeneralTurret.yy",},
     {"name":"BossLV","order":5,"path":"rooms/BossLV/BossLV.yy",},
