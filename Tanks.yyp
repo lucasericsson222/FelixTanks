@@ -93,6 +93,7 @@
     {"id":{"name":"BossLV","path":"rooms/BossLV/BossLV.yy",},},
     {"id":{"name":"Wall","path":"objects/Wall/Wall.yy",},},
     {"id":{"name":"WinScreenSpr","path":"sprites/WinScreenSpr/WinScreenSpr.yy",},},
+    {"id":{"name":"SecretBase","path":"rooms/SecretBase/SecretBase.yy",},},
     {"id":{"name":"PlayButton","path":"objects/PlayButton/PlayButton.yy",},},
     {"id":{"name":"CrateSpr","path":"sprites/CrateSpr/CrateSpr.yy",},},
     {"id":{"name":"PlayerBulletSpr","path":"sprites/PlayerBulletSpr/PlayerBulletSpr.yy",},},
@@ -104,13 +105,14 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"TitleRoom","path":"rooms/TitleRoom/TitleRoom.yy",},},
+    {"roomId":{"name":"DeathRoom","path":"rooms/DeathRoom/DeathRoom.yy",},},
     {"roomId":{"name":"LV10","path":"rooms/LV10/LV10.yy",},},
     {"roomId":{"name":"JacksRoom","path":"rooms/JacksRoom/JacksRoom.yy",},},
     {"roomId":{"name":"Dieu","path":"rooms/Dieu/Dieu.yy",},},
     {"roomId":{"name":"EmptyRoom","path":"rooms/EmptyRoom/EmptyRoom.yy",},},
     {"roomId":{"name":"BossLV","path":"rooms/BossLV/BossLV.yy",},},
     {"roomId":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
-    {"roomId":{"name":"DeathRoom","path":"rooms/DeathRoom/DeathRoom.yy",},},
+    {"roomId":{"name":"SecretBase","path":"rooms/SecretBase/SecretBase.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

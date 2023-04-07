@@ -71,6 +71,7 @@
     {"name":"BossLV","order":5,"path":"rooms/BossLV/BossLV.yy",},
     {"name":"Wall","order":23,"path":"objects/Wall/Wall.yy",},
     {"name":"WinScreenSpr","order":25,"path":"sprites/WinScreenSpr/WinScreenSpr.yy",},
+    {"name":"SecretBase","order":11,"path":"rooms/SecretBase/SecretBase.yy",},
     {"name":"PlayButton","order":43,"path":"objects/PlayButton/PlayButton.yy",},
     {"name":"CrateSpr","order":9,"path":"sprites/CrateSpr/CrateSpr.yy",},
     {"name":"PlayerBulletSpr","order":2,"path":"sprites/PlayerBulletSpr/PlayerBulletSpr.yy",},
