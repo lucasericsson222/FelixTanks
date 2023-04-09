@@ -27,4 +27,14 @@ if(GeneralHp <= 0)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos_relative" "1"
 	position_destroy(x + 0, y + 0);
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 47E8F326
+	/// @DnDParent : 160CDEA7
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "objectid" "ShotgunPart"
+	/// @DnDSaveInfo : "objectid" "ShotgunPart"
+	instance_create_layer(x + 0, y + 0, "Instances", ShotgunPart);
 }

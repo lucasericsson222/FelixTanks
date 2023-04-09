@@ -38,6 +38,13 @@ RotSpeed = 5;
 /// @DnDArgument : "var" "BodyRotation"
 BodyRotation = 0;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2FC256D8
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "hasShotgun"
+hasShotgun = true;
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 51C5CF24
