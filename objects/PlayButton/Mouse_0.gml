@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 6F9D58EF
-/// @DnDArgument : "room" "BossLV"
-/// @DnDSaveInfo : "room" "BossLV"
-room_goto(BossLV);
+/// @DnDArgument : "room" "LV10"
+/// @DnDSaveInfo : "room" "LV10"
+room_goto(LV10);
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
