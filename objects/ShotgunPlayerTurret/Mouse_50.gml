@@ -31,7 +31,7 @@ if(CanShoot)
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 655DB23D
+		/// @DnDHash : 2B79DE0B
 		/// @DnDParent : 245B4FE3
 		/// @DnDArgument : "expr" "false"
 		/// @DnDArgument : "var" "CanShoot"

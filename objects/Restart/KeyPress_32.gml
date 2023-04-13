@@ -7,5 +7,6 @@ temp = global.GLBRespawnPoint;
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 038B65B6
-/// @DnDArgument : "room" "temp"
-room_goto(temp);
+/// @DnDArgument : "room" "TitleRoom"
+/// @DnDSaveInfo : "room" "TitleRoom"
+room_goto(TitleRoom);
