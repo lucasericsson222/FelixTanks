@@ -1,10 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "FlamethrowerTank",
+  "name": "LostModeButton",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":true,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -12,10 +11,7 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": {
-    "name": "EnemyParent",
-    "path": "objects/EnemyParent/EnemyParent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,10 +27,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
-  "spriteMaskId": {
-    "name": "PlayerCollisionBoxSpr",
-    "path": "sprites/PlayerCollisionBoxSpr/PlayerCollisionBoxSpr.yy",
+  "spriteId": {
+    "name": "LostModeButtonSpr",
+    "path": "sprites/LostModeButtonSpr/LostModeButtonSpr.yy",
   },
+  "spriteMaskId": null,
   "visible": true,
 }

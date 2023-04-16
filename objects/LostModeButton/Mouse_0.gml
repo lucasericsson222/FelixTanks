@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 6F9D58EF
-/// @DnDArgument : "room" "SuperHardLevel"
-/// @DnDSaveInfo : "room" "SuperHardLevel"
-room_goto(SuperHardLevel);
+/// @DnDArgument : "room" "TheTemple"
+/// @DnDSaveInfo : "room" "TheTemple"
+room_goto(TheTemple);
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

@@ -74,3 +74,17 @@ isRainbow = false;
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "DoubleShot"
 DoubleShot = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 79ED07F9
+/// @DnDArgument : "expr" "$FF0059FF"
+/// @DnDArgument : "var" "playerColor"
+playerColor = $FF0059FF;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6A7868DA
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "playerColorIsBlue"
+playerColorIsBlue = true;

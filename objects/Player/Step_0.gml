@@ -160,3 +160,12 @@ if ((l7F98583F_0 > 0))
 		PlayerHP += -0.5;
 	}
 }
+
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
+/// @DnDHash : 76A1C8BE
+/// @DnDArgument : "expr" "playerColorIsBlue"
+if(playerColorIsBlue)
+{
+
+}
