@@ -1,3 +1,15 @@
+/// @DnDAction : YoYo Games.Instances.Inherit_Event
+/// @DnDVersion : 1
+/// @DnDHash : 63CA57D2
+event_inherited();
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 515B6B49
+/// @DnDArgument : "expr" "RandomShot"
+/// @DnDArgument : "var" "Turret.RandomShot"
+Turret.RandomShot = RandomShot;
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 684F1FD8

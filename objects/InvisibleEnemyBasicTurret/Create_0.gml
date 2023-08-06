@@ -12,3 +12,10 @@ var MyRandom = (random_range(1, 2));
 /// @DnDHash : 009A7D4B
 /// @DnDArgument : "steps" "MyRandom*60"
 alarm_set(0, MyRandom*60);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4153399E
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "RandomShot"
+RandomShot = false;

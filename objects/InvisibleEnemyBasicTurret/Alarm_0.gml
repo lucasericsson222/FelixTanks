@@ -15,6 +15,30 @@ Bullet = instance_create_layer(x + 0, y + 0, "Instances", EnemyBullet);
 /// @DnDArgument : "var" "Bullet.direction"
 Bullet.direction = image_angle;
 
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 53EB0BCB
+/// @DnDArgument : "var" "Player.Hide"
+/// @DnDArgument : "value" "true"
+if(Player.Hide == true)
+{
+	/// @DnDAction : YoYo Games.Random.Get_Random_Number
+	/// @DnDVersion : 1
+	/// @DnDHash : 15FC43DA
+	/// @DnDParent : 53EB0BCB
+	/// @DnDArgument : "var" "RandomDirection"
+	/// @DnDArgument : "max" "360"
+	RandomDirection = (random_range(0, 360));
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 41504075
+	/// @DnDParent : 53EB0BCB
+	/// @DnDArgument : "expr" "RandomDirection"
+	/// @DnDArgument : "var" "Bullet.direction"
+	Bullet.direction = RandomDirection;
+}
+
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
 /// @DnDHash : 7A8A484B

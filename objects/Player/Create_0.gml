@@ -88,3 +88,10 @@ playerColor = $FF0059FF;
 /// @DnDArgument : "expr" "true"
 /// @DnDArgument : "var" "playerColorIsBlue"
 playerColorIsBlue = true;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 371945F8
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "Hide"
+Hide = false;

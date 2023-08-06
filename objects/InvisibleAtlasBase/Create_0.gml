@@ -10,6 +10,7 @@ AtlasBaseHp = 100;
 /// @DnDHash : 502FEA13
 /// @DnDArgument : "xpos_relative" "1"
 /// @DnDArgument : "ypos_relative" "1"
+/// @DnDArgument : "var" "Turret"
 /// @DnDArgument : "objectid" "InvisibleEnemyBasicTurret"
 /// @DnDSaveInfo : "objectid" "InvisibleEnemyBasicTurret"
-instance_create_layer(x + 0, y + 0, "Instances", InvisibleEnemyBasicTurret);
+Turret = instance_create_layer(x + 0, y + 0, "Instances", InvisibleEnemyBasicTurret);
