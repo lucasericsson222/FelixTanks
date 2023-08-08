@@ -202,3 +202,27 @@ else
 	/// @DnDArgument : "var" "Hide"
 	Hide = false;
 }
+
+/// @DnDAction : YoYo Games.Collisions.If_Object_At
+/// @DnDVersion : 1.1
+/// @DnDHash : 17115A89
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "target" "FireIsOn"
+/// @DnDArgument : "object" "FireBall"
+/// @DnDSaveInfo : "object" "FireBall"
+var l17115A89_0 = instance_place(x + 0, y + 0, FireBall);
+FireIsOn = l17115A89_0;
+if ((l17115A89_0 > 0))
+{
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 240538D8
+	/// @DnDParent : 17115A89
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "var" "FireIsOn"
+	/// @DnDArgument : "objectid" "Fire"
+	/// @DnDSaveInfo : "objectid" "Fire"
+	FireIsOn = instance_create_layer(x + 0, y + 0, "Instances", Fire);
+}
