@@ -34,6 +34,7 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
+    {"id":{"name":"BackButtonSpr","path":"sprites/BackButtonSpr/BackButtonSpr.yy",},},
     {"id":{"name":"DetectVictory","path":"objects/DetectVictory/DetectVictory.yy",},},
     {"id":{"name":"BossLV13","path":"rooms/BossLV13/BossLV13.yy",},},
     {"id":{"name":"TheForest","path":"rooms/TheForest/TheForest.yy",},},
@@ -117,6 +118,7 @@
     {"id":{"name":"Medkit","path":"objects/Medkit/Medkit.yy",},},
     {"id":{"name":"LostModeButton","path":"objects/LostModeButton/LostModeButton.yy",},},
     {"id":{"name":"TheTempel","path":"rooms/TheTempel/TheTempel.yy",},},
+    {"id":{"name":"BackButton","path":"objects/BackButton/BackButton.yy",},},
     {"id":{"name":"ReinforcedFragileWallSpr","path":"sprites/ReinforcedFragileWallSpr/ReinforcedFragileWallSpr.yy",},},
     {"id":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},},
     {"id":{"name":"Fire","path":"objects/Fire/Fire.yy",},},

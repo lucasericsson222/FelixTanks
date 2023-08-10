@@ -16,6 +16,7 @@
     {"name":"Timelines","order":4,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"BackButtonSpr","order":54,"path":"sprites/BackButtonSpr/BackButtonSpr.yy",},
     {"name":"DetectVictory","order":24,"path":"objects/DetectVictory/DetectVictory.yy",},
     {"name":"BossLV13","order":13,"path":"rooms/BossLV13/BossLV13.yy",},
     {"name":"TheForest","order":12,"path":"rooms/TheForest/TheForest.yy",},
@@ -95,6 +96,7 @@
     {"name":"Medkit","order":10,"path":"objects/Medkit/Medkit.yy",},
     {"name":"LostModeButton","order":39,"path":"objects/LostModeButton/LostModeButton.yy",},
     {"name":"TheTempel","order":11,"path":"rooms/TheTempel/TheTempel.yy",},
+    {"name":"BackButton","order":53,"path":"objects/BackButton/BackButton.yy",},
     {"name":"ReinforcedFragileWallSpr","order":4,"path":"sprites/ReinforcedFragileWallSpr/ReinforcedFragileWallSpr.yy",},
     {"name":"Fire","order":52,"path":"objects/Fire/Fire.yy",},
     {"name":"EnemyShotgunTurretSpr","order":15,"path":"sprites/EnemyShotgunTurretSpr/EnemyShotgunTurretSpr.yy",},
