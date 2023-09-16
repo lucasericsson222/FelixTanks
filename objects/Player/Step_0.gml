@@ -37,7 +37,7 @@ if(isMoving)
 	/// @DnDArgument : "object" "Wall"
 	/// @DnDArgument : "not" "1"
 	/// @DnDSaveInfo : "object" "Wall"
-	var l7C7917A9_0 = instance_place(x + newPosX, y + 0, Wall);
+	var l7C7917A9_0 = instance_place(x + newPosX, y + 0, [Wall]);
 	if (!(l7C7917A9_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Collisions.If_Object_At
@@ -50,7 +50,7 @@ if(isMoving)
 		/// @DnDArgument : "object" "EnemyParent"
 		/// @DnDArgument : "not" "1"
 		/// @DnDSaveInfo : "object" "EnemyParent"
-		var l1B924115_0 = instance_place(x + newPosX, y + 0, EnemyParent);
+		var l1B924115_0 = instance_place(x + newPosX, y + 0, [EnemyParent]);
 		if (!(l1B924115_0 > 0))
 		{
 			/// @DnDAction : YoYo Games.Movement.move_and_collide
@@ -74,7 +74,7 @@ if(isMoving)
 	/// @DnDArgument : "object" "Wall"
 	/// @DnDArgument : "not" "1"
 	/// @DnDSaveInfo : "object" "Wall"
-	var l1D4DDCB3_0 = instance_place(x + 0, y + newPosY, Wall);
+	var l1D4DDCB3_0 = instance_place(x + 0, y + newPosY, [Wall]);
 	if (!(l1D4DDCB3_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Collisions.If_Object_At
@@ -87,7 +87,7 @@ if(isMoving)
 		/// @DnDArgument : "object" "EnemyParent"
 		/// @DnDArgument : "not" "1"
 		/// @DnDSaveInfo : "object" "EnemyParent"
-		var l19083A27_0 = instance_place(x + 0, y + newPosY, EnemyParent);
+		var l19083A27_0 = instance_place(x + 0, y + newPosY, [EnemyParent]);
 		if (!(l19083A27_0 > 0))
 		{
 			/// @DnDAction : YoYo Games.Movement.move_and_collide
@@ -140,7 +140,7 @@ if(PlayerHP <= 0)
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "Trap"
 /// @DnDSaveInfo : "object" "Trap"
-var l7F98583F_0 = instance_place(x + 0, y + 0, Trap);
+var l7F98583F_0 = instance_place(x + 0, y + 0, [Trap]);
 if ((l7F98583F_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Common.If_Expression
@@ -177,7 +177,7 @@ if(playerColorIsBlue)
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "BigBush"
 /// @DnDSaveInfo : "object" "BigBush"
-var l79F172A4_0 = instance_place(x + 0, y + 0, BigBush);
+var l79F172A4_0 = instance_place(x + 0, y + 0, [BigBush]);
 if ((l79F172A4_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Common.Variable
@@ -211,7 +211,7 @@ else
 /// @DnDArgument : "target" "FireIsOn"
 /// @DnDArgument : "object" "FireBall"
 /// @DnDSaveInfo : "object" "FireBall"
-var l17115A89_0 = instance_place(x + 0, y + 0, FireBall);
+var l17115A89_0 = instance_place(x + 0, y + 0, [FireBall]);
 FireIsOn = l17115A89_0;
 if ((l17115A89_0 > 0))
 {
@@ -225,4 +225,24 @@ if ((l17115A89_0 > 0))
 	/// @DnDArgument : "objectid" "Fire"
 	/// @DnDSaveInfo : "objectid" "Fire"
 	FireIsOn = instance_create_layer(x + 0, y + 0, "Instances", Fire);
+}
+
+/// @DnDAction : YoYo Games.Collisions.If_Object_At
+/// @DnDVersion : 1.1
+/// @DnDHash : 76962E74
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "object" "Fire"
+/// @DnDSaveInfo : "object" "Fire"
+var l76962E74_0 = instance_place(x + 0, y + 0, [Fire]);
+if ((l76962E74_0 > 0))
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 700F69B2
+	/// @DnDParent : 76962E74
+	/// @DnDArgument : "expr" "-0.1"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "PlayerHP"
+	PlayerHP += -0.1;
 }
