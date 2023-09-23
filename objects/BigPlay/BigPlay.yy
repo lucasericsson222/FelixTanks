@@ -1,18 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Bush",
-  "eventList": [],
+  "name": "BigPlay",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":true,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": {
-    "name": "Wall",
-    "path": "objects/Wall/Wall.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "BushSpr",
-    "path": "sprites/BushSpr/BushSpr.yy",
+    "name": "BigPlaySpr",
+    "path": "sprites/BigPlaySpr/BigPlaySpr.yy",
   },
   "spriteMaskId": null,
   "visible": true,

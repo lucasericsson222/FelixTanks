@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ShotgunPart",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
-  ],
+  "name": "Tok",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy",
+    "path": "folders/Extensions/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -27,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "ShotgunPartSpr",
-    "path": "sprites/ShotgunPartSpr/ShotgunPartSpr.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

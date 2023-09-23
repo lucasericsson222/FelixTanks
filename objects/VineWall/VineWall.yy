@@ -1,12 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "rCrate",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"PlayerBullet","path":"objects/PlayerBullet/PlayerBullet.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"EnemyBullet","path":"objects/EnemyBullet/EnemyBullet.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,},
-  ],
+  "name": "VineWall",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -33,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "CrateSpr",
-    "path": "sprites/CrateSpr/CrateSpr.yy",
+    "name": "VineWallSpr",
+    "path": "sprites/VineWallSpr/VineWallSpr.yy",
   },
   "spriteMaskId": null,
   "visible": true,

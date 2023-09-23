@@ -246,3 +246,20 @@ if ((l76962E74_0 > 0))
 	/// @DnDArgument : "var" "PlayerHP"
 	PlayerHP += -0.1;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1B4D3179
+/// @DnDArgument : "var" "PlayerHP"
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "100"
+if(PlayerHP > 100)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 66DE5B05
+	/// @DnDParent : 1B4D3179
+	/// @DnDArgument : "expr" "100"
+	/// @DnDArgument : "var" "PlayerHP"
+	PlayerHP = 100;
+}
