@@ -95,3 +95,9 @@ playerColorIsBlue = true;
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "Hide"
 Hide = false;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 706E1F92
+/// @DnDArgument : "var" "NumberOfKeys"
+global.NumberOfKeys = 0;
