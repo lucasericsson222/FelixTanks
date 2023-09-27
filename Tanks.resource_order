@@ -130,6 +130,7 @@
     {"name":"CrateSpr","order":9,"path":"sprites/CrateSpr/CrateSpr.yy",},
     {"name":"PlayerBulletSpr","order":2,"path":"sprites/PlayerBulletSpr/PlayerBulletSpr.yy",},
     {"name":"GameMode","order":48,"path":"objects/GameMode/GameMode.yy",},
+    {"name":"RoomScaler","order":61,"path":"objects/RoomScaler/RoomScaler.yy",},
     {"name":"EnemyShotgun","order":14,"path":"objects/EnemyShotgun/EnemyShotgun.yy",},
     {"name":"Victory","order":23,"path":"objects/Victory/Victory.yy",},
     {"name":"TheMase","order":17,"path":"rooms/TheMase/TheMase.yy",},
