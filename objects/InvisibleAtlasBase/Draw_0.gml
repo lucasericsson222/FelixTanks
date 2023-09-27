@@ -28,10 +28,10 @@ if(AtlasBaseHp <= 50)
 	/// @DnDArgument : "y2" "-8"
 	/// @DnDArgument : "y2_relative" "1"
 	/// @DnDArgument : "direction" "1"
-	/// @DnDArgument : "value" "PercentHealth"
+	/// @DnDArgument : "value" "AtlasBaseHp / 100"
 	/// @DnDArgument : "backcol" "$000000FF"
 	/// @DnDArgument : "barcol" "$FF0000FF"
 	/// @DnDArgument : "mincol" "$FF0000FF"
 	/// @DnDArgument : "maxcol" "$FF0000FF"
-	draw_healthbar(x + -10, y + -10, x + 10, y + -8, PercentHealth, $000000FF & $FFFFFF, $FF0000FF & $FFFFFF, $FF0000FF & $FFFFFF, 1, (($000000FF>>24) != 0), (($FF0000FF>>24) != 0));
+	draw_healthbar(x + -10, y + -10, x + 10, y + -8, AtlasBaseHp / 100, $000000FF & $FFFFFF, $FF0000FF & $FFFFFF, $FF0000FF & $FFFFFF, 1, (($000000FF>>24) != 0), (($FF0000FF>>24) != 0));
 }
